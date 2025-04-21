@@ -291,7 +291,7 @@ BOOL ConnectToSymbol(IRtdServer *pSrv, WCHAR *symbol, SAFEARRAY **ppArgs, long *
         return FALSE;
     }
        
-    wprintf(L"Connected to symbol: %ls\n", symbol);
+    wprintf(L"Connected to symbol: %ls\n\n", symbol);
     return TRUE;
 }
 

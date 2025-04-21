@@ -3,7 +3,7 @@ Thinkorswim Real Time Data in C
 
 A lightweight COM client for accessing real-time market data from ThinkOrSwim's RTD server.
 
-https://github.com/user-attachments/assets/c44d1e44-cafa-46d9-a0dd-205998a99881
+![image](https://github.com/user-attachments/assets/d0849574-ccdf-43e2-811b-0d92f2e9854d)
 
 ## Requirements
 
