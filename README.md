@@ -16,7 +16,7 @@ A lightweight COM client for accessing real-time market data from ThinkOrSwim's 
 To compile the application:
 
 ```
-clang -Wall -O2 -o rtd_client_clang.exe rtd_client.c -lole32 -loleaut32 -luuid -luser32 -DUNICODE -D_UNICODE
+clang -Wall -O2 -o rtd_client.exe rtd_client.c -lole32 -loleaut32 -luuid -luser32 -DUNICODE -D_UNICODE
 
 gcc -Wall -O2 -o rtd_client.exe rtd_client.c -lole32 -loleaut32 -luuid -luser32 -DUNICODE -D_UNICODE
 
@@ -33,6 +33,12 @@ cl rtd_client.c /O2 /W4 /DUNICODE /D_UNICODE /link ole32.lib oleaut32.lib uuid.l
 
 1. Start the ThinkOrSwim desktop application
 2. Run the RTD client executable
+    ```
+    Powershell: ./rtd_client
+
+    Command Prompt: rtd_client
+    ```
+
 3. Enter symbol and topic.
 4. At anytime press "Enter" to change symbol or exit.
 
